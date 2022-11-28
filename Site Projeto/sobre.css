@@ -1,0 +1,66 @@
+.flex-cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo {
+    font-family: georgia;
+    font-size: 65px;
+    justify-content: center;
+    color: #000;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+	
+body{
+    padding: 25px;
+    margin: 10px;
+    background: rgb(226,169,185);
+    background: rgb(30,34,27);
+    background: linear-gradient(90deg, rgba(30,34,27,1) 0%, rgba(30,34,27,1) 60%, rgba(30,34,27,1) 85%);
+}
+
+img {
+	border: solid yellow 5px;
+	border-radius: 25px;
+}
+
+.borda{
+    background-color:   #638f38;
+    border: 2px solid #638f38;
+  border-radius: 3px;
+  padding: 4px; 
+  }
+
+.escrita{
+    font-family: georgia;
+    color: #ffffff;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: tahoma;
+    font-size: 15pt;
+    align-items: center;
+    height: 7vh;
+}
+
+nav a {
+	color: green;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+a:active {
+	color: yellow;
+	text-decoration: underline;
+}
